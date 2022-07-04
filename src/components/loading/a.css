@@ -1,0 +1,17 @@
+.animation {
+    animation: skeleton-animation 1000ms linear infinite alternate;
+}
+
+@keyframes skeleton-animation {
+    0% {
+        background-color: hsl(200, 20%, 50%);
+    }
+
+    50% {
+        background-color: hsl(200, 20%, 70%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
